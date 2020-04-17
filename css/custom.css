@@ -2,22 +2,19 @@
 /* Add your custom CSS declarations below  */
 
 
-
-body { background-color: #f4f4f4; }
-
-a, a:hover { color: orange; }
-
-
-
-.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
-    background-color: orange;
-	
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: orange !important;
 }
 
-.nav-item:hover {
-	background-color: #e2e2e2;
+a {
+	color: orange;
+	text-decoration: none;
+	background-color: transparent;
 }
 
-.gray {
-	background-color: #e2e2e2;
+a:hover {
+color: orange;
+background-color: transparent;
+text-decoration: underline;
 }
