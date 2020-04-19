@@ -3,7 +3,7 @@
 
 
 
-body { background-image: url("images/sdfbackground.png"); }
+body { background: url(images/back.png) no-repeat 0px;  }
 
 a, a:hover { color: #682d18; }
 
