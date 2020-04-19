@@ -2,19 +2,25 @@
 /* Add your custom CSS declarations below  */
 
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: orange !important;
+
+body { background-image: url("images/sdfbackground.png"); }
+
+a, a:hover { color: #682d18; }
+
+
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link .nav-justified {
+    background-color: #ffe7dc;
+    color: #682d18;
+	
 }
 
-a {
-	color: orange;
-	text-decoration: none;
-	background-color: transparent;
+.nav-item:hover {
+	background-color: #ffe7dc;
 }
 
-a:hover {
-color: orange;
-background-color: transparent;
-text-decoration: underline;
+.gray {
+	background-color: #ffe7dc;
 }
+
+
