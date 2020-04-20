@@ -9,9 +9,14 @@ a, a:hover { color: #682d18; }
 
 
 
-.nav-pills .nav-link.active, .show > .nav-pills .nav-link .nav-justified {
+.nav-pills .show > .nav-pills .nav-link .nav-justified .btn {
     background-color: #ffe7dc;
-    color: #682d18;
+    color: #682d18;	
+}
+
+
+.nav-link.active {
+    color: #ffe7dc;
 	
 }
 
@@ -22,5 +27,11 @@ a, a:hover { color: #682d18; }
 .gray {
 	background-color: #ffe7dc;
 }
+
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
 
 
