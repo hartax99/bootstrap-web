@@ -1,22 +1,63 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 
+header {
+	font-family: 'Andale Mono', sans-serif;
+	font-size: 100%;
+	text-align: right;
+	line-height: 175%;
 
+}
 
-body { background: url(images/back.png) no-repeat 0px;  }
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  text-align: left;
+  line-height: 175%;
+  margin: 0 10% 0;
+  background: #Fff;
+}
+
+h1{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	padding-top: 55px;
+}
+
+h2{
+	font-family: source-code-pro, monospace;
+	font-weight: 300;
+	font-style: normal;
+}
+
+footer{
+	font-family: 'Trebuchet MS', sans-serif;
+  	font-size: 100%;
+  	text-align: center;
+  	line-height: 175%;
+  	margin-top: 100px
+  	color: #682d18;
+}
 
 a, a:hover { color: #682d18; }
 
 
 
 .nav-pills .show > .nav-pills .nav-link .nav-justified .btn {
+    font-family: 'Andale Mono', sans-serif;
     background-color: #ffe7dc;
     color: #682d18;	
 }
 
+.btn-lg{
+	font-family: 'Andale Mono', sans-serif;
+}
+
 
 .nav-link.active {
-    color: #ffe7dc;
+    color: #682d18;
 	
 }
 
@@ -25,7 +66,11 @@ a, a:hover { color: #682d18; }
 }
 
 .gray {
-	background-color: #ffe7dc;
+	background-color: none;
+	justify-content: right;
+	margin-top: 50px;
+	color: #682d18;
+
 }
 
 
@@ -33,5 +78,53 @@ a, a:hover { color: #682d18; }
   margin-top: 0 !important;
 }
 
+/* copyright section */
+.c-copy {
+	padding: 20px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #682d18;
+
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #ffff;
+  color: #682d18;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #ffff;
+  color: #682d18;
+}
+
+/* YouTube */
+.fa-youtube {
+  background: #ffff;
+  color: #682d18;
+}
 
 
