@@ -80,7 +80,6 @@ a, a:hover { color: #682d18; }
 	color: #000000;
 }
 
-
 .font-italic{
 	font-family: 'Trebuchet MS', sans-serif;
   font-size: 100%;
@@ -91,7 +90,9 @@ a, a:hover { color: #682d18; }
   background: #FFF7F4;
 }
 
-
+.jumbotron{
+	background-color: #FFE3D9 !important;
+}
 
 .nav-pills .show .nav-pills .nav-link .nav-justified .btn .btn-primary .btn-sm{
     font-family: 'Andale Mono', sans-serif ;
